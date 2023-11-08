@@ -15,6 +15,8 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "SQL", "SQL", "{6BCA2324-26C
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "CSharp", "CSharp", "{9297CFED-CFF1-4DE9-AC5C-7B20DB2DDEBB}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ConsoleApp1", "SQL\ConsoleApp1\ConsoleApp1.csproj", "{F323EFF8-E46D-47E7-B1B5-BC65EC277062}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -29,6 +31,10 @@ Global
 		{AFE16924-A4C8-4E4F-A256-F16F285554FD}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{AFE16924-A4C8-4E4F-A256-F16F285554FD}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{AFE16924-A4C8-4E4F-A256-F16F285554FD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F323EFF8-E46D-47E7-B1B5-BC65EC277062}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F323EFF8-E46D-47E7-B1B5-BC65EC277062}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F323EFF8-E46D-47E7-B1B5-BC65EC277062}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F323EFF8-E46D-47E7-B1B5-BC65EC277062}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -36,6 +42,7 @@ Global
 	GlobalSection(NestedProjects) = preSolution
 		{B9836A72-DAE0-4651-9693-A4AC0ABFE3DB} = {9297CFED-CFF1-4DE9-AC5C-7B20DB2DDEBB}
 		{AFE16924-A4C8-4E4F-A256-F16F285554FD} = {9297CFED-CFF1-4DE9-AC5C-7B20DB2DDEBB}
+		{F323EFF8-E46D-47E7-B1B5-BC65EC277062} = {6BCA2324-26C7-4A57-AE10-348F3409A7B6}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {83402F40-2FA3-4F57-AB6C-A4C3972C513B}
