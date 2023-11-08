@@ -7,6 +7,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OOP.INTRO", "CSharp\OOP.INT
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OOP2.INTRO", "CSharp\OOP2.INTRO\OOP2.INTRO.csproj", "{AFE16924-A4C8-4E4F-A256-F16F285554FD}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "CSharp2", "CSharp2", "{69BFAB9E-5A0E-44F3-AC6A-0966A72396F9}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OOP3.INTRO", "CSharp\OOP3.INTRO\OOP3.INTRO.csproj", "{8EB6F082-AA7C-43CC-AB44-7FB1886CCCFF}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -21,6 +25,10 @@ Global
 		{AFE16924-A4C8-4E4F-A256-F16F285554FD}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{AFE16924-A4C8-4E4F-A256-F16F285554FD}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{AFE16924-A4C8-4E4F-A256-F16F285554FD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8EB6F082-AA7C-43CC-AB44-7FB1886CCCFF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8EB6F082-AA7C-43CC-AB44-7FB1886CCCFF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8EB6F082-AA7C-43CC-AB44-7FB1886CCCFF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8EB6F082-AA7C-43CC-AB44-7FB1886CCCFF}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
