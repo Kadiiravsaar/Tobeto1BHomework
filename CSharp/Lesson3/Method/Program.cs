@@ -38,4 +38,4 @@ Console.WriteLine("*****");
 // instance
 BasketManager basketManager = new BasketManager();
 basketManager.Add(prod1);
-basketManager.Add(prod2);
+basketManager.AddTwo("Çilek","Mavidir");

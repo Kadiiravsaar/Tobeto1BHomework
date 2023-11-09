@@ -13,6 +13,10 @@ namespace OOP.Lesson._3
         {
             Console.WriteLine("Added to basket ! : " + product.Name);
         }
+        public void AddTwo(string name,string description)
+        {
+            Console.WriteLine("Added to basket ! : " + name);
+        }
 
     }
 }
