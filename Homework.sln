@@ -19,6 +19,10 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Lesson3", "Lesson3", "{BEF6
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Method", "CSharp\Lesson3\Method\Method.csproj", "{4186C82B-3ED0-4408-B232-FA220657A545}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Math", "CSharp\Lesson3\Math\Math.csproj", "{AF334F82-809C-417E-8AAB-F77EC37D7746}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ValueAndReferenceTypes", "CSharp\Lesson3\ValueAndReferenceTypes\ValueAndReferenceTypes.csproj", "{62D6641C-9B49-4C93-A9E8-D55387E40242}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -29,6 +33,14 @@ Global
 		{4186C82B-3ED0-4408-B232-FA220657A545}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{4186C82B-3ED0-4408-B232-FA220657A545}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{4186C82B-3ED0-4408-B232-FA220657A545}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AF334F82-809C-417E-8AAB-F77EC37D7746}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AF334F82-809C-417E-8AAB-F77EC37D7746}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AF334F82-809C-417E-8AAB-F77EC37D7746}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AF334F82-809C-417E-8AAB-F77EC37D7746}.Release|Any CPU.Build.0 = Release|Any CPU
+		{62D6641C-9B49-4C93-A9E8-D55387E40242}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{62D6641C-9B49-4C93-A9E8-D55387E40242}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{62D6641C-9B49-4C93-A9E8-D55387E40242}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{62D6641C-9B49-4C93-A9E8-D55387E40242}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -36,6 +48,8 @@ Global
 	GlobalSection(NestedProjects) = preSolution
 		{BEF6E09A-5FED-4BF2-A039-43A6EA5E611C} = {9297CFED-CFF1-4DE9-AC5C-7B20DB2DDEBB}
 		{4186C82B-3ED0-4408-B232-FA220657A545} = {BEF6E09A-5FED-4BF2-A039-43A6EA5E611C}
+		{AF334F82-809C-417E-8AAB-F77EC37D7746} = {BEF6E09A-5FED-4BF2-A039-43A6EA5E611C}
+		{62D6641C-9B49-4C93-A9E8-D55387E40242} = {BEF6E09A-5FED-4BF2-A039-43A6EA5E611C}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {83402F40-2FA3-4F57-AB6C-A4C3972C513B}
