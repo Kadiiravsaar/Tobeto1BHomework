@@ -15,7 +15,9 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "React", "React", "{B4C46452
 		React1.txt = React1.txt
 	EndProjectSection
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OOP.Lesson.3", "CSharp\OOP.Lesson.3\OOP.Lesson.3.csproj", "{8E709845-3844-4CEA-AD14-F479254FC8C3}"
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Lesson3", "Lesson3", "{BEF6E09A-5FED-4BF2-A039-43A6EA5E611C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Method", "CSharp\Lesson3\Method\Method.csproj", "{4186C82B-3ED0-4408-B232-FA220657A545}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -23,16 +25,17 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{8E709845-3844-4CEA-AD14-F479254FC8C3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{8E709845-3844-4CEA-AD14-F479254FC8C3}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{8E709845-3844-4CEA-AD14-F479254FC8C3}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{8E709845-3844-4CEA-AD14-F479254FC8C3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4186C82B-3ED0-4408-B232-FA220657A545}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4186C82B-3ED0-4408-B232-FA220657A545}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4186C82B-3ED0-4408-B232-FA220657A545}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4186C82B-3ED0-4408-B232-FA220657A545}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(NestedProjects) = preSolution
-		{8E709845-3844-4CEA-AD14-F479254FC8C3} = {9297CFED-CFF1-4DE9-AC5C-7B20DB2DDEBB}
+		{BEF6E09A-5FED-4BF2-A039-43A6EA5E611C} = {9297CFED-CFF1-4DE9-AC5C-7B20DB2DDEBB}
+		{4186C82B-3ED0-4408-B232-FA220657A545} = {BEF6E09A-5FED-4BF2-A039-43A6EA5E611C}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {83402F40-2FA3-4F57-AB6C-A4C3972C513B}
