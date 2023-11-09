@@ -3,8 +3,6 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.7.34009.444
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "OOP2.INTRO", "CSharp\OOP2.INTRO\OOP2.INTRO.csproj", "{AFE16924-A4C8-4E4F-A256-F16F285554FD}"
-EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "SQL", "SQL", "{6BCA2324-26C7-4A57-AE10-348F3409A7B6}"
 	ProjectSection(SolutionItems) = preProject
 		SqlQuery_1.sql = SqlQuery_1.sql
@@ -17,22 +15,24 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "React", "React", "{B4C46452
 		React1.txt = React1.txt
 	EndProjectSection
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OOP.Lesson.3", "CSharp\OOP.Lesson.3\OOP.Lesson.3.csproj", "{8E709845-3844-4CEA-AD14-F479254FC8C3}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{AFE16924-A4C8-4E4F-A256-F16F285554FD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{AFE16924-A4C8-4E4F-A256-F16F285554FD}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{AFE16924-A4C8-4E4F-A256-F16F285554FD}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{AFE16924-A4C8-4E4F-A256-F16F285554FD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8E709845-3844-4CEA-AD14-F479254FC8C3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8E709845-3844-4CEA-AD14-F479254FC8C3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8E709845-3844-4CEA-AD14-F479254FC8C3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8E709845-3844-4CEA-AD14-F479254FC8C3}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(NestedProjects) = preSolution
-		{AFE16924-A4C8-4E4F-A256-F16F285554FD} = {9297CFED-CFF1-4DE9-AC5C-7B20DB2DDEBB}
+		{8E709845-3844-4CEA-AD14-F479254FC8C3} = {9297CFED-CFF1-4DE9-AC5C-7B20DB2DDEBB}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {83402F40-2FA3-4F57-AB6C-A4C3972C513B}
