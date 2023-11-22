@@ -21,7 +21,9 @@ namespace Business.Abstract
 
         //IDataResult<List<ProductDetailDto>> GetProductDetails();
 
-        IResult AddProduct(Product product);
+        IResult Add(Product product);
+        IResult Update(Product product);
+        IResult Delete(Product product);
 
 
     }

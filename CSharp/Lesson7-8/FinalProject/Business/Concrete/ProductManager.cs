@@ -70,34 +70,24 @@ namespace Business.Concrete
         //}
 
 
-        // Claim => Yetki (iddia etmek)
-        public IResult AddProduct(Product product)
+    
+     
+        public IResult Add(Product product)
         {
             _productDal.Add(product);
             return new SuccessResult("Eklendi");
         }
 
-        private IResult CheckIfProductCountOfCategoryCorrect(int categoryId)
+        public IResult Update(Product product)
         {
-            var result = _productDal.GetAll(x => x.CategoryId == categoryId).Count;
-            if (result >= 10)
-            {
-                return new ErrorResult("Sayı 10dan büyük");
-            }
-
-            return new SuccessResult();
+            _productDal.Update(product);
+            return new SuccessResult("Güncellendi");
         }
-
-        private IResult CheckIfProductNameExists(string name)
+        public IResult Delete(Product product)
         {
-            var result = _productDal.GetAll(p => p.ProductName == name).Any();
-            if (result)
-            {
-                return new ErrorResult("Ürün Adı zaten kayıtlı");
-            }
-            return new SuccessResult();
+            _productDal.Delete(product);
+            return new SuccessResult("Güncellendi");
         }
-
     }
 
 }
