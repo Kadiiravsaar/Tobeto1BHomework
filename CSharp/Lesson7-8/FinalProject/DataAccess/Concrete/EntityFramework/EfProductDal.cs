@@ -4,7 +4,7 @@ using Entities.Concrete;
 
 namespace DataAccess.Concrete.EntityFramework
 {
-    public class EfProductDal : EfEntityRepositoryBase<Category, AppDbContext>, ICategoryDal
+    public class EfProductDal : EfEntityRepositoryBase<Product, AppDbContext>, IProductDal
     {
        
     }
