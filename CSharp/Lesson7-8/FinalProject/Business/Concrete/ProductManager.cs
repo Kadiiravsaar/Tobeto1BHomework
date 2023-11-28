@@ -1,8 +1,12 @@
 ﻿using Business.Abstract;
+using Business.ValidationRules.FluentValidation;
+using Core.Aspects.Autofac.Validation;
 using Core.Utilities.Results;
 using DataAccess.Abstract;
 using Entities.Concrete;
 using Entities.DTOs;
+using FluentValidation;
+using System.ComponentModel.DataAnnotations;
 
 namespace Business.Concrete
 {
@@ -70,10 +74,12 @@ namespace Business.Concrete
         //}
 
 
-    
-     
+
+
+        [ValidationAspect(typeof(ProductValidator))]
         public IResult Add(Product product)
         {
+
             _productDal.Add(product);
             return new SuccessResult("Eklendi");
         }
